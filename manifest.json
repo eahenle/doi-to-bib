@@ -1,0 +1,13 @@
+{
+    "name": "doi-to-bib",
+    "description": "get bibtex from DOI",
+    "version": "0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "main.js"
+    }
+}
